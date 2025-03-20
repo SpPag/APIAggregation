@@ -32,9 +32,15 @@ There is some filtering capability. The query supports a filterBy parameter to f
 For example: `https://localhost:7103/api/aggregate?filterBy=Holt` (will return a single entry from https://reqres.in/api/users that has "Holt" as last name)
 
 Required dependencies
+
 • .NET SDK 8 or later
+
 • Serilog libraries for logging
+
   • Serilog
+  
   • Serilog.AspNetCore
+  
   • Serilog.Sinks.Console
+  
   • Serilog.Sinks.File
