@@ -29,9 +29,7 @@ Endpoint:
 
 • Query Parameters: You can use the filterBy query parameter to filter results. Example: /api/aggregate?filterBy=Holt
 
-• Response Body: Returns a JSON object with the results from the requested APIs, formatted and processed for the registered APIs.
-
-Any other API will return the response in raw JSON as it's configured to.
+• Response Body: Returns a JSON object with the results from the requested APIs, formatted and processed for the registered APIs. Any other API will return the response in raw JSON depending on its configuration.
 
 Should more API responses need to be deserialized and more nicely presented, following my approach, these are the required adjustments.
 • The respective DTOs would need to be created
