@@ -23,3 +23,6 @@ There is some error handling capability. Each provided API URL will be called th
 
 There is some filtering capability. The query can accept the filterBy parameter, based on which it will return the appropriate data.
 
+Required dependencies
+- .NET SDK 8 or later
+- Serilog, Serilog.AspNetCore, Serilog.Sinks.Console, Serilog.Sinks.File for logging
