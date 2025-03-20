@@ -7,6 +7,7 @@ This is a simple API Aggregation service. It's currently setup to deserialize an
 Example of POST request & request body:
 url: https://localhost:7103/api/aggregate (the 4 digit number after localhost: is the port on which the service is locally hosted on the user's pc
 request body: {
+
     "APIURLs": [
     "https://jsonplaceholder.typicode.com/posts",
     "http://api.openweathermap.org/data/2.5/weather?q=Athens,gr&appid=fdbd122fc2168fc5916ab13827182b58",
