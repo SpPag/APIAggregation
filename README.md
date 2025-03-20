@@ -8,8 +8,6 @@ This is a simple API Aggregation service. It's currently set up to deserialize a
   • `https://reqres.in/api/users`
 
 
-
-
 Endpoint:
 
 • URL: `https://localhost:{localhostPort}/api/aggregate` (replace {localhostPort} with the actual port number on which your service is running locally (for example, 7103))
