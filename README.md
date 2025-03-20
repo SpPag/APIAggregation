@@ -16,8 +16,10 @@ request body (where YourAppId is your token for the openweathermap API: {
 }
 
 Any other API will return the response in raw JSON as it's configured to.
+
 Should more API responses need to be deserialized and more nicely presented, following my approach, the respective DTOs would need to be created, the ExternalAPIService class' FetchDataAsync() method as well as APIAggregateController's GetAggregatedData() method would need to have an additional else if statement for each additional API.
 
 There is some error handling capability. Each provided API URL will be called three times and after the last one fails, an appropriate error will be returned.
 
 There is some filtering capability. The query can accept the filterBy parameter, based on which it will return the appropriate data.
+
