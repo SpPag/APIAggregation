@@ -39,7 +39,7 @@ Should more API responses need to be deserialized and more nicely presented, fol
 There is some error handling capability. Each provided API URL is retried up to three times. If all attempts fail, an appropriate error will be returned.
 
 There is some filtering capability. The query supports a filterBy parameter to filter results.
-For example: `https://localhost:7103/api/aggregate?filterBy=Holt` (will return a single entry from https://reqres.in/api/users that has "Holt" as last name)
+For example: `https://localhost:7103/api/aggregate?filterBy=Holt` (will return a single entry from `https://reqres.in/api/users` that has "Holt" as last name)
 
 Required dependencies
 
