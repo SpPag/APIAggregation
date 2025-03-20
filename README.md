@@ -8,16 +8,28 @@ This is a simple API Aggregation service. It's currently set up to deserialize a
   • `https://reqres.in/api/users`
 
 
-Example of POST request & request body:
-url: `https://localhost:7103/api/aggregate` (the four-digit number after localhost: is the port on which the service is locally hosted on the user's pc)
-request body (where YourAppId is your token for the openweathermap API: {
+Endpoint:
 
-    "APIURLs": [
-    "https://jsonplaceholder.typicode.com/posts",
-    "http://api.openweathermap.org/data/2.5/weather?q=Athens,gr&appid={YourAppId}",
-    "https://reqres.in/api/users"
-    ]
-}
+• url: `https://localhost:{localhostPort}/api/aggregate` (replace {localhostPort} with the actual port number on which your service is running locally (for example, 7103))
+
+• method: POST
+
+• description: Aggregates data from multiple external APIs, formats, and returns the data.
+
+• request body: The body should be a JSON object containing a list of API URLs to fetch.
+  
+  {
+  
+      "APIURLs": [
+      "https://jsonplaceholder.typicode.com/posts",
+      "http://api.openweathermap.org/data/2.5/weather?q=Athens,gr&appid={YourAppId}",
+      "https://reqres.in/api/users"
+      ]
+  }
+
+• query parameters: You can use the filterBy query parameter to filter results. Example: /api/aggregate?filterBy=Holt
+
+• Response Body: Returns a JSON object with the results from the requested APIs, formatted and processed for the registered APIs.
 
 Any other API will return the response in raw JSON as it's configured to.
 
