@@ -12,11 +12,11 @@ Endpoint:
 
 • URL: `https://localhost:{localhostPort}/api/aggregate` (replace {localhostPort} with the actual port number on which your service is running locally (for example, 7103))
 
-• method: POST
+• Method: POST
 
-• description: Aggregates data from multiple external APIs, formats, and returns the data.
+• Description: Aggregates data from multiple external APIs, formats, and returns the data.
 
-• request body: The body should be a JSON object containing a list of API URLs to fetch.
+• Request Body: The body should be a JSON object containing a list of API URLs to fetch.
   
   {
   
@@ -27,7 +27,7 @@ Endpoint:
       ]
   }
 
-• query parameters: You can use the filterBy query parameter to filter results. Example: /api/aggregate?filterBy=Holt
+• Query Parameters: You can use the filterBy query parameter to filter results. Example: /api/aggregate?filterBy=Holt
 
 • Response Body: Returns a JSON object with the results from the requested APIs, formatted and processed for the registered APIs.
 
