@@ -55,15 +55,24 @@ namespace APIAggregationAssignment.Controllers
                             }
                         }
                         // For JSONPlaceholder posts (List<JsonPlaceholderDTO>)
-                        else if (kvp.Value is List<JsonPlaceholderDTO> posts)
+                        else if (kvp.Value is JsonPlaceholderResponseDTO jsonPlaceholderResponse)
                         {
-                            var filteredPosts = posts
+                            var filteredPosts = jsonPlaceholderResponse.Posts
                                 .Where(post => post.Title.Contains(filterBy, StringComparison.OrdinalIgnoreCase) ||
                                                post.Body.Contains(filterBy, StringComparison.OrdinalIgnoreCase))
                                 .ToList();
 
                             if (filteredPosts.Any())
-                                filteredResult.Add(kvp.Key, filteredPosts);
+                            {
+                                //create a new response DTo with only the filtered posts
+                                var filteredJsonPlaceholderResponse = new JsonPlaceholderResponseDTO
+                                {
+                                    Posts = filteredPosts
+                                };
+
+                                filteredResult.Add(kvp.Key, filteredJsonPlaceholderResponse);
+                            }
+                                
                         }
                         // For Reqres users (UsersResponseDTO)
                         else if (kvp.Value is UsersResponseDTO usersResponse)
