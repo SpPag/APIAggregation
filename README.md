@@ -37,10 +37,10 @@ Required dependencies
 
 • Serilog libraries for logging
 
-  • Serilog
+    • Serilog
+    
+    • Serilog.AspNetCore
   
-  • Serilog.AspNetCore
+    • Serilog.Sinks.Console
   
-  • Serilog.Sinks.Console
-  
-  • Serilog.Sinks.File
+    • Serilog.Sinks.File
