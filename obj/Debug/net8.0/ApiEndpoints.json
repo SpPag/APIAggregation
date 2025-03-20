@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "APIAggregationAssignment.Controllers.APIAggregateController",
+    "Method": "GetAggregatedData",
+    "RelativePath": "api/aggregate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "APIAggregationAssignment.Models.APIURLsRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "sortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filterBy",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

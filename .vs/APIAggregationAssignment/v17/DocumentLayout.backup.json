@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Coding\\Practice\\APIAggregationAssignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{157C1579-5030-41BE-8079-A19BF35C6D1A}|APIAggregationAssignment.csproj|c:\\coding\\practice\\apiaggregationassignment\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157C1579-5030-41BE-8079-A19BF35C6D1A}|APIAggregationAssignment.csproj|solutionrelative:models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157C1579-5030-41BE-8079-A19BF35C6D1A}|APIAggregationAssignment.csproj|c:\\coding\\practice\\apiaggregationassignment\\models\\jsonplaceholderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157C1579-5030-41BE-8079-A19BF35C6D1A}|APIAggregationAssignment.csproj|solutionrelative:models\\jsonplaceholderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157C1579-5030-41BE-8079-A19BF35C6D1A}|APIAggregationAssignment.csproj|c:\\coding\\practice\\apiaggregationassignment\\models\\jsonplaceholderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157C1579-5030-41BE-8079-A19BF35C6D1A}|APIAggregationAssignment.csproj|solutionrelative:models\\jsonplaceholderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157C1579-5030-41BE-8079-A19BF35C6D1A}|APIAggregationAssignment.csproj|c:\\coding\\practice\\apiaggregationassignment\\models\\usersresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157C1579-5030-41BE-8079-A19BF35C6D1A}|APIAggregationAssignment.csproj|solutionrelative:models\\usersresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157C1579-5030-41BE-8079-A19BF35C6D1A}|APIAggregationAssignment.csproj|c:\\coding\\practice\\apiaggregationassignment\\controllers\\apiaggregatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157C1579-5030-41BE-8079-A19BF35C6D1A}|APIAggregationAssignment.csproj|solutionrelative:controllers\\apiaggregatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157C1579-5030-41BE-8079-A19BF35C6D1A}|APIAggregationAssignment.csproj|c:\\coding\\practice\\apiaggregationassignment\\services\\iexternalapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157C1579-5030-41BE-8079-A19BF35C6D1A}|APIAggregationAssignment.csproj|solutionrelative:services\\iexternalapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157C1579-5030-41BE-8079-A19BF35C6D1A}|APIAggregationAssignment.csproj|c:\\coding\\practice\\apiaggregationassignment\\services\\externalapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157C1579-5030-41BE-8079-A19BF35C6D1A}|APIAggregationAssignment.csproj|solutionrelative:services\\externalapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersResponseDTO.cs",
+              "DocumentMoniker": "C:\\Coding\\Practice\\APIAggregationAssignment\\Models\\UsersResponseDTO.cs",
+              "RelativeDocumentMoniker": "Models\\UsersResponseDTO.cs",
+              "ToolTip": "C:\\Coding\\Practice\\APIAggregationAssignment\\Models\\UsersResponseDTO.cs",
+              "RelativeToolTip": "Models\\UsersResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T10:29:35.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Coding\\Practice\\APIAggregationAssignment\\Models\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Models\\UserDTO.cs",
+              "ToolTip": "C:\\Coding\\Practice\\APIAggregationAssignment\\Models\\UserDTO.cs",
+              "RelativeToolTip": "Models\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T10:23:36.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JsonPlaceholderResponseDTO.cs",
+              "DocumentMoniker": "C:\\Coding\\Practice\\APIAggregationAssignment\\Models\\JsonPlaceholderResponseDTO.cs",
+              "RelativeDocumentMoniker": "Models\\JsonPlaceholderResponseDTO.cs",
+              "ToolTip": "C:\\Coding\\Practice\\APIAggregationAssignment\\Models\\JsonPlaceholderResponseDTO.cs",
+              "RelativeToolTip": "Models\\JsonPlaceholderResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T10:22:55.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JsonPlaceholderDTO.cs",
+              "DocumentMoniker": "C:\\Coding\\Practice\\APIAggregationAssignment\\Models\\JsonPlaceholderDTO.cs",
+              "RelativeDocumentMoniker": "Models\\JsonPlaceholderDTO.cs",
+              "ToolTip": "C:\\Coding\\Practice\\APIAggregationAssignment\\Models\\JsonPlaceholderDTO.cs",
+              "RelativeToolTip": "Models\\JsonPlaceholderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T10:22:54.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IExternalAPIService.cs",
+              "DocumentMoniker": "C:\\Coding\\Practice\\APIAggregationAssignment\\Services\\IExternalAPIService.cs",
+              "RelativeDocumentMoniker": "Services\\IExternalAPIService.cs",
+              "ToolTip": "C:\\Coding\\Practice\\APIAggregationAssignment\\Services\\IExternalAPIService.cs",
+              "RelativeToolTip": "Services\\IExternalAPIService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T09:53:42.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "APIAggregateController.cs",
+              "DocumentMoniker": "C:\\Coding\\Practice\\APIAggregationAssignment\\Controllers\\APIAggregateController.cs",
+              "RelativeDocumentMoniker": "Controllers\\APIAggregateController.cs",
+              "ToolTip": "C:\\Coding\\Practice\\APIAggregationAssignment\\Controllers\\APIAggregateController.cs",
+              "RelativeToolTip": "Controllers\\APIAggregateController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAiwEcAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T12:09:40.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExternalAPIService.cs",
+              "DocumentMoniker": "C:\\Coding\\Practice\\APIAggregationAssignment\\Services\\ExternalAPIService.cs",
+              "RelativeDocumentMoniker": "Services\\ExternalAPIService.cs",
+              "ToolTip": "C:\\Coding\\Practice\\APIAggregationAssignment\\Services\\ExternalAPIService.cs",
+              "RelativeToolTip": "Services\\ExternalAPIService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAUwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T11:55:43.544Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

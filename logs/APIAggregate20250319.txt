@@ -1,0 +1,321 @@
+2025-03-19 17:12:43.121 +02:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-19 17:12:43.163 +02:00 [DBG] Hosting starting
+2025-03-19 17:12:43.171 +02:00 [DBG] Middleware loaded
+2025-03-19 17:12:43.172 +02:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16533 B).
+2025-03-19 17:12:43.173 +02:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-03-19 17:12:43.217 +02:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-03-19 17:12:43.268 +02:00 [INF] Now listening on: https://localhost:7103
+2025-03-19 17:12:43.269 +02:00 [INF] Now listening on: http://localhost:5080
+2025-03-19 17:12:43.269 +02:00 [DBG] Loaded hosting startup assembly APIAggregationAssignment
+2025-03-19 17:12:43.270 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-19 17:12:43.270 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-19 17:12:43.270 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-19 17:12:43.314 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-19 17:12:43.314 +02:00 [INF] Hosting environment: Development
+2025-03-19 17:12:43.315 +02:00 [INF] Content root path: C:\Coding\Practice\APIAggregationAssignment
+2025-03-19 17:12:43.315 +02:00 [DBG] Hosting started
+2025-03-19 17:12:43.596 +02:00 [DBG] Connection id "0HNB6V1VQB14J" accepted.
+2025-03-19 17:12:43.596 +02:00 [DBG] Connection id "0HNB6V1VQB14I" accepted.
+2025-03-19 17:12:43.601 +02:00 [DBG] Connection id "0HNB6V1VQB14J" started.
+2025-03-19 17:12:43.601 +02:00 [DBG] Connection id "0HNB6V1VQB14I" started.
+2025-03-19 17:12:43.602 +02:00 [DBG] Connection id "0HNB6V1VQB14J" received FIN.
+2025-03-19 17:12:43.602 +02:00 [DBG] Connection id "0HNB6V1VQB14I" received FIN.
+2025-03-19 17:12:43.616 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-19 17:12:43.616 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-19 17:12:43.636 +02:00 [DBG] Connection id "0HNB6V1VQB14I" stopped.
+2025-03-19 17:12:43.636 +02:00 [DBG] Connection id "0HNB6V1VQB14J" stopped.
+2025-03-19 17:12:43.641 +02:00 [DBG] Connection id "0HNB6V1VQB14J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-19 17:12:43.641 +02:00 [DBG] Connection id "0HNB6V1VQB14I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-19 17:12:44.023 +02:00 [DBG] Connection id "0HNB6V1VQB14K" accepted.
+2025-03-19 17:12:44.025 +02:00 [DBG] Connection id "0HNB6V1VQB14K" started.
+2025-03-19 17:12:44.049 +02:00 [DBG] Connection 0HNB6V1VQB14K established using the following protocol: "Tls13"
+2025-03-19 17:12:44.086 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/swagger/index.html - null null
+2025-03-19 17:12:44.148 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-19 17:12:44.155 +02:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-03-19 17:12:44.156 +02:00 [DBG] Request did not match any endpoints
+2025-03-19 17:12:44.185 +02:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-03-19 17:12:44.186 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-03-19 17:12:44.195 +02:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-03-19 17:12:44.196 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-03-19 17:12:44.198 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/swagger/index.html - 200 null text/html;charset=utf-8 115.9963ms
+2025-03-19 17:12:44.213 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-19 17:12:44.213 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/swagger/swagger-ui.css - null null
+2025-03-19 17:12:44.215 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/_vs/browserLink - null null
+2025-03-19 17:12:44.217 +02:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2025-03-19 17:12:44.218 +02:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-03-19 17:12:44.219 +02:00 [DBG] Request did not match any endpoints
+2025-03-19 17:12:44.220 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/_framework/aspnetcore-browser-refresh.js - 200 16533 application/javascript; charset=utf-8 7.3958ms
+2025-03-19 17:12:44.229 +02:00 [DBG] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2025-03-19 17:12:44.230 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-03-19 17:12:44.231 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/swagger/swagger-ui.css - 499 152034 text/css 18.4923ms
+2025-03-19 17:12:44.243 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.3327ms
+2025-03-19 17:12:44.309 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/swagger/favicon-16x16.png - null null
+2025-03-19 17:12:44.311 +02:00 [DBG] No candidates found for the request path '/swagger/favicon-16x16.png'
+2025-03-19 17:12:44.311 +02:00 [DBG] Request did not match any endpoints
+2025-03-19 17:12:44.313 +02:00 [DBG] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2025-03-19 17:12:44.314 +02:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2025-03-19 17:12:44.315 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/swagger/favicon-16x16.png - 499 665 image/png 6.09ms
+2025-03-19 17:12:44.334 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/swagger/v1/swagger.json - null null
+2025-03-19 17:12:44.336 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-03-19 17:12:44.337 +02:00 [DBG] Request did not match any endpoints
+2025-03-19 17:12:44.342 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.5547ms
+2025-03-19 17:12:48.435 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7103/api/aggregate - application/json 35
+2025-03-19 17:12:48.440 +02:00 [DBG] 1 candidate(s) found for the request path '/api/aggregate'
+2025-03-19 17:12:48.443 +02:00 [DBG] Endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)' with route pattern 'api/aggregate' is valid for the request path '/api/aggregate'
+2025-03-19 17:12:48.444 +02:00 [DBG] Request matched endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:12:48.446 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-19 17:12:48.447 +02:00 [INF] Executing endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:12:48.463 +02:00 [INF] Route matched with {action = "GetAggregatedData", controller = "APIAggregate"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAggregatedData(APIAggregationAssignment.Models.APIURLsRequest) on controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment).
+2025-03-19 17:12:48.466 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-19 17:12:48.467 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-19 17:12:48.468 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-19 17:12:48.470 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-19 17:12:48.472 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-19 17:12:48.474 +02:00 [DBG] Executing controller factory for controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment)
+2025-03-19 17:12:48.477 +02:00 [DBG] Executed controller factory for controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment)
+2025-03-19 17:12:48.485 +02:00 [DBG] Attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' ...
+2025-03-19 17:12:48.486 +02:00 [DBG] Attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' using the name '' in request data ...
+2025-03-19 17:12:48.488 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-03-19 17:12:48.493 +02:00 [DBG] Connection id "0HNB6V1VQB14K", Request id "0HNB6V1VQB14K:0000000F": started reading request body.
+2025-03-19 17:12:48.494 +02:00 [DBG] Connection id "0HNB6V1VQB14K", Request id "0HNB6V1VQB14K:0000000F": done reading request body.
+2025-03-19 17:12:48.501 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'APIAggregationAssignment.Models.APIURLsRequest'
+2025-03-19 17:12:48.502 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:12:48.503 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:12:48.504 +02:00 [DBG] Attempting to validate the bound parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' ...
+2025-03-19 17:12:48.510 +02:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:12:48.564 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-19 17:12:48.566 +02:00 [DBG] No information found on request to perform content negotiation.
+2025-03-19 17:12:48.567 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-03-19 17:12:48.567 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-03-19 17:12:48.568 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-19 17:12:48.568 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 17:12:48.574 +02:00 [INF] Executed action APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment) in 97.8054ms
+2025-03-19 17:12:48.574 +02:00 [INF] Executed endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:12:48.575 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7103/api/aggregate - 500 null application/json; charset=utf-8 139.7594ms
+2025-03-19 17:13:04.702 +02:00 [DBG] Connection id "0HNB6V1VQB14L" received FIN.
+2025-03-19 17:13:04.702 +02:00 [DBG] Connection id "0HNB6V1VQB14M" accepted.
+2025-03-19 17:13:04.704 +02:00 [DBG] Connection id "0HNB6V1VQB14M" started.
+2025-03-19 17:13:04.705 +02:00 [DBG] Connection id "0HNB6V1VQB14N" accepted.
+2025-03-19 17:13:04.707 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-19 17:13:04.707 +02:00 [DBG] Connection id "0HNB6V1VQB14N" started.
+2025-03-19 17:13:04.708 +02:00 [DBG] Connection id "0HNB6V1VQB14M" stopped.
+2025-03-19 17:13:04.709 +02:00 [DBG] Connection id "0HNB6V1VQB14M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-19 17:13:04.711 +02:00 [DBG] Connection 0HNB6V1VQB14N established using the following protocol: "Tls13"
+2025-03-19 17:13:04.713 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7103/api/aggregate - application/json 233
+2025-03-19 17:13:04.714 +02:00 [DBG] 1 candidate(s) found for the request path '/api/aggregate'
+2025-03-19 17:13:04.715 +02:00 [DBG] Endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)' with route pattern 'api/aggregate' is valid for the request path '/api/aggregate'
+2025-03-19 17:13:04.716 +02:00 [DBG] Request matched endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:13:04.716 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-19 17:13:04.717 +02:00 [INF] Executing endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:13:04.717 +02:00 [INF] Route matched with {action = "GetAggregatedData", controller = "APIAggregate"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAggregatedData(APIAggregationAssignment.Models.APIURLsRequest) on controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment).
+2025-03-19 17:13:04.718 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-19 17:13:04.719 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-19 17:13:04.720 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-19 17:13:04.720 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-19 17:13:04.721 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-19 17:13:04.723 +02:00 [DBG] Executing controller factory for controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment)
+2025-03-19 17:13:04.724 +02:00 [DBG] Executed controller factory for controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment)
+2025-03-19 17:13:04.725 +02:00 [DBG] Attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' ...
+2025-03-19 17:13:04.726 +02:00 [DBG] Attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' using the name '' in request data ...
+2025-03-19 17:13:04.727 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-03-19 17:13:04.728 +02:00 [DBG] Connection id "0HNB6V1VQB14N", Request id "0HNB6V1VQB14N:00000001": started reading request body.
+2025-03-19 17:13:04.730 +02:00 [DBG] Connection id "0HNB6V1VQB14N", Request id "0HNB6V1VQB14N:00000001": done reading request body.
+2025-03-19 17:13:04.730 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'APIAggregationAssignment.Models.APIURLsRequest'
+2025-03-19 17:13:04.731 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:13:04.731 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:13:04.732 +02:00 [DBG] Attempting to validate the bound parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' ...
+2025-03-19 17:13:04.733 +02:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:13:04.735 +02:00 [INF] Start processing HTTP request GET https://jsonplaceholder.typicode.com/posts
+2025-03-19 17:13:04.737 +02:00 [INF] Sending HTTP request GET https://jsonplaceholder.typicode.com/posts
+2025-03-19 17:13:04.742 +02:00 [INF] Start processing HTTP request GET http://api.openweathermap.org/data/2.5/weather?q=Athens,gr&appid=fdbd122fc2168fc5916ab13827182b58
+2025-03-19 17:13:04.742 +02:00 [INF] Sending HTTP request GET http://api.openweathermap.org/data/2.5/weather?q=Athens,gr&appid=fdbd122fc2168fc5916ab13827182b58
+2025-03-19 17:13:04.744 +02:00 [INF] Start processing HTTP request GET https://reqres.in/api/users
+2025-03-19 17:13:04.745 +02:00 [INF] Sending HTTP request GET https://reqres.in/api/users
+2025-03-19 17:13:04.892 +02:00 [INF] Received HTTP response headers after 147.0685ms - 200
+2025-03-19 17:13:04.893 +02:00 [INF] End processing HTTP request after 151.5553ms - 200
+2025-03-19 17:13:04.973 +02:00 [INF] Received HTTP response headers after 227.1431ms - 200
+2025-03-19 17:13:04.975 +02:00 [INF] End processing HTTP request after 230.8359ms - 200
+2025-03-19 17:13:05.038 +02:00 [INF] Received HTTP response headers after 300.0159ms - 200
+2025-03-19 17:13:05.039 +02:00 [INF] End processing HTTP request after 304.5986ms - 200
+2025-03-19 17:13:05.043 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-19 17:13:05.045 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2025-03-19 17:13:05.046 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-19 17:13:05.046 +02:00 [INF] Executing OkObjectResult, writing value of type 'APIAggregationAssignment.Models.APIAggregateDTO'.
+2025-03-19 17:13:05.050 +02:00 [INF] Executed action APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment) in 327.1306ms
+2025-03-19 17:13:05.051 +02:00 [INF] Executed endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:13:05.052 +02:00 [DBG] Connection id "0HNB6V1VQB14N" completed keep alive response.
+2025-03-19 17:13:05.053 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7103/api/aggregate - 200 null application/json; charset=utf-8 339.7514ms
+2025-03-19 17:13:10.638 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7103/api/aggregate - application/json 233
+2025-03-19 17:13:10.642 +02:00 [DBG] 1 candidate(s) found for the request path '/api/aggregate'
+2025-03-19 17:13:10.643 +02:00 [DBG] Endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)' with route pattern 'api/aggregate' is valid for the request path '/api/aggregate'
+2025-03-19 17:13:10.644 +02:00 [DBG] Request matched endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:13:10.645 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-19 17:13:10.645 +02:00 [INF] Executing endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:13:10.646 +02:00 [INF] Route matched with {action = "GetAggregatedData", controller = "APIAggregate"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAggregatedData(APIAggregationAssignment.Models.APIURLsRequest) on controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment).
+2025-03-19 17:13:10.647 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-19 17:13:10.648 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-19 17:13:10.649 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-19 17:13:10.650 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-19 17:13:10.651 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-19 17:13:10.652 +02:00 [DBG] Executing controller factory for controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment)
+2025-03-19 17:13:10.653 +02:00 [DBG] Executed controller factory for controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment)
+2025-03-19 17:13:10.654 +02:00 [DBG] Attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' ...
+2025-03-19 17:13:10.655 +02:00 [DBG] Attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' using the name '' in request data ...
+2025-03-19 17:13:10.656 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-03-19 17:13:10.657 +02:00 [DBG] Connection id "0HNB6V1VQB14N", Request id "0HNB6V1VQB14N:00000002": started reading request body.
+2025-03-19 17:13:10.658 +02:00 [DBG] Connection id "0HNB6V1VQB14N", Request id "0HNB6V1VQB14N:00000002": done reading request body.
+2025-03-19 17:13:10.659 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'APIAggregationAssignment.Models.APIURLsRequest'
+2025-03-19 17:13:10.660 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:13:10.661 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:13:10.662 +02:00 [DBG] Attempting to validate the bound parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' ...
+2025-03-19 17:13:10.663 +02:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:13:10.664 +02:00 [INF] Start processing HTTP request GET https://jsonplaceholder.typicode.com/posts
+2025-03-19 17:13:10.664 +02:00 [INF] Sending HTTP request GET https://jsonplaceholder.typicode.com/posts
+2025-03-19 17:13:10.667 +02:00 [INF] Start processing HTTP request GET http://api.openweathermap.org/data/2.5/weather?q=Athens,gr&appid=fdbd122fc2168fc5916ab13827182b58
+2025-03-19 17:13:10.668 +02:00 [INF] Sending HTTP request GET http://api.openweathermap.org/data/2.5/weather?q=Athens,gr&appid=fdbd122fc2168fc5916ab13827182b58
+2025-03-19 17:13:10.670 +02:00 [INF] Start processing HTTP request GET https://reqres.in/api/users
+2025-03-19 17:13:10.670 +02:00 [INF] Sending HTTP request GET https://reqres.in/api/users
+2025-03-19 17:13:10.724 +02:00 [INF] Received HTTP response headers after 54.664ms - 200
+2025-03-19 17:13:10.728 +02:00 [INF] End processing HTTP request after 61.1415ms - 200
+2025-03-19 17:13:10.733 +02:00 [INF] Received HTTP response headers after 61.718ms - 200
+2025-03-19 17:13:10.734 +02:00 [INF] End processing HTTP request after 64.4073ms - 200
+2025-03-19 17:13:10.749 +02:00 [INF] Received HTTP response headers after 83.1242ms - 200
+2025-03-19 17:13:10.750 +02:00 [INF] End processing HTTP request after 86.0901ms - 200
+2025-03-19 17:13:10.751 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-19 17:13:10.753 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2025-03-19 17:13:10.754 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-19 17:13:10.756 +02:00 [INF] Executing OkObjectResult, writing value of type 'APIAggregationAssignment.Models.APIAggregateDTO'.
+2025-03-19 17:13:10.757 +02:00 [INF] Executed action APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment) in 105.1702ms
+2025-03-19 17:13:10.759 +02:00 [INF] Executed endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:13:10.760 +02:00 [DBG] Connection id "0HNB6V1VQB14N" completed keep alive response.
+2025-03-19 17:13:10.761 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7103/api/aggregate - 200 null application/json; charset=utf-8 122.1223ms
+2025-03-19 17:13:16.627 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7103/api/aggregate - application/json 39
+2025-03-19 17:13:16.629 +02:00 [DBG] 1 candidate(s) found for the request path '/api/aggregate'
+2025-03-19 17:13:16.630 +02:00 [DBG] Endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)' with route pattern 'api/aggregate' is valid for the request path '/api/aggregate'
+2025-03-19 17:13:16.630 +02:00 [DBG] Request matched endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:13:16.631 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-19 17:13:16.631 +02:00 [INF] Executing endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:13:16.631 +02:00 [INF] Route matched with {action = "GetAggregatedData", controller = "APIAggregate"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAggregatedData(APIAggregationAssignment.Models.APIURLsRequest) on controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment).
+2025-03-19 17:13:16.632 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-19 17:13:16.633 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-19 17:13:16.634 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-19 17:13:16.635 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-19 17:13:16.635 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-19 17:13:16.636 +02:00 [DBG] Executing controller factory for controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment)
+2025-03-19 17:13:16.637 +02:00 [DBG] Executed controller factory for controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment)
+2025-03-19 17:13:16.642 +02:00 [DBG] Attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' ...
+2025-03-19 17:13:16.654 +02:00 [DBG] Attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' using the name '' in request data ...
+2025-03-19 17:13:16.658 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-03-19 17:13:16.661 +02:00 [DBG] Connection id "0HNB6V1VQB14N", Request id "0HNB6V1VQB14N:00000003": started reading request body.
+2025-03-19 17:13:16.663 +02:00 [DBG] Connection id "0HNB6V1VQB14N", Request id "0HNB6V1VQB14N:00000003": done reading request body.
+2025-03-19 17:13:16.667 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'APIAggregationAssignment.Models.APIURLsRequest'
+2025-03-19 17:13:16.671 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:13:16.672 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:13:16.673 +02:00 [DBG] Attempting to validate the bound parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' ...
+2025-03-19 17:13:16.674 +02:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:13:16.712 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-19 17:13:16.713 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2025-03-19 17:13:16.713 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-19 17:13:16.714 +02:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-19 17:13:16.715 +02:00 [INF] Executed action APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment) in 78.9827ms
+2025-03-19 17:13:16.716 +02:00 [INF] Executed endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:13:16.717 +02:00 [DBG] Connection id "0HNB6V1VQB14N" completed keep alive response.
+2025-03-19 17:13:16.718 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7103/api/aggregate - 500 null application/json; charset=utf-8 90.8326ms
+2025-03-19 17:13:30.848 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7103/api/aggregate - application/json 234
+2025-03-19 17:13:30.850 +02:00 [DBG] 1 candidate(s) found for the request path '/api/aggregate'
+2025-03-19 17:13:30.851 +02:00 [DBG] Endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)' with route pattern 'api/aggregate' is valid for the request path '/api/aggregate'
+2025-03-19 17:13:30.851 +02:00 [DBG] Request matched endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:13:30.852 +02:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-19 17:13:30.852 +02:00 [INF] Executing endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:13:30.853 +02:00 [INF] Route matched with {action = "GetAggregatedData", controller = "APIAggregate"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAggregatedData(APIAggregationAssignment.Models.APIURLsRequest) on controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment).
+2025-03-19 17:13:30.854 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-19 17:13:30.855 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-19 17:13:30.857 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-03-19 17:13:30.858 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-19 17:13:30.859 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-03-19 17:13:30.859 +02:00 [DBG] Executing controller factory for controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment)
+2025-03-19 17:13:30.860 +02:00 [DBG] Executed controller factory for controller APIAggregationAssignment.Controllers.APIAggregateController (APIAggregationAssignment)
+2025-03-19 17:13:30.860 +02:00 [DBG] Attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' ...
+2025-03-19 17:13:30.861 +02:00 [DBG] Attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' using the name '' in request data ...
+2025-03-19 17:13:30.862 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-03-19 17:13:30.862 +02:00 [DBG] Connection id "0HNB6V1VQB14N", Request id "0HNB6V1VQB14N:00000004": started reading request body.
+2025-03-19 17:13:30.863 +02:00 [DBG] Connection id "0HNB6V1VQB14N", Request id "0HNB6V1VQB14N:00000004": done reading request body.
+2025-03-19 17:13:30.864 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'APIAggregationAssignment.Models.APIURLsRequest'
+2025-03-19 17:13:30.864 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:13:30.865 +02:00 [DBG] Done attempting to bind parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:13:30.865 +02:00 [DBG] Attempting to validate the bound parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest' ...
+2025-03-19 17:13:30.866 +02:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'APIAggregationAssignment.Models.APIURLsRequest'.
+2025-03-19 17:13:30.867 +02:00 [INF] Start processing HTTP request GET https://jsonplaceholder.typicode.com/postss
+2025-03-19 17:13:30.867 +02:00 [INF] Sending HTTP request GET https://jsonplaceholder.typicode.com/postss
+2025-03-19 17:13:30.868 +02:00 [INF] Start processing HTTP request GET http://api.openweathermap.org/data/2.5/weather?q=Athens,gr&appid=fdbd122fc2168fc5916ab13827182b58
+2025-03-19 17:13:30.869 +02:00 [INF] Sending HTTP request GET http://api.openweathermap.org/data/2.5/weather?q=Athens,gr&appid=fdbd122fc2168fc5916ab13827182b58
+2025-03-19 17:13:30.870 +02:00 [INF] Start processing HTTP request GET https://reqres.in/api/users
+2025-03-19 17:13:30.871 +02:00 [INF] Sending HTTP request GET https://reqres.in/api/users
+2025-03-19 17:13:30.924 +02:00 [INF] Received HTTP response headers after 54.4223ms - 200
+2025-03-19 17:13:30.937 +02:00 [INF] End processing HTTP request after 68.9ms - 200
+2025-03-19 17:13:30.956 +02:00 [INF] Received HTTP response headers after 65.9137ms - 200
+2025-03-19 17:13:30.961 +02:00 [INF] End processing HTTP request after 91.6142ms - 200
+2025-03-19 17:13:31.212 +02:00 [INF] Received HTTP response headers after 343.9205ms - 404
+2025-03-19 17:13:31.212 +02:00 [INF] End processing HTTP request after 345.5775ms - 404
+2025-03-19 17:13:31.232 +02:00 [ERR] Error with https://jsonplaceholder.typicode.com/postss.
+Error: Response status code does not indicate success: 404 (Not Found).
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at APIAggregationAssignment.Services.ExternalAPIService.FetchDataAsync(String url) in C:\Coding\Practice\APIAggregationAssignment\Services\ExternalAPIService.cs:line 39
+2025-03-19 17:13:31.241 +02:00 [INF] Start processing HTTP request GET https://jsonplaceholder.typicode.com/postss
+2025-03-19 17:13:31.241 +02:00 [INF] Sending HTTP request GET https://jsonplaceholder.typicode.com/postss
+2025-03-19 17:13:31.326 +02:00 [INF] Received HTTP response headers after 83.9122ms - 404
+2025-03-19 17:13:31.326 +02:00 [INF] End processing HTTP request after 85.6142ms - 404
+2025-03-19 17:13:31.337 +02:00 [ERR] Error with https://jsonplaceholder.typicode.com/postss.
+Error: Response status code does not indicate success: 404 (Not Found).
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at APIAggregationAssignment.Services.ExternalAPIService.FetchDataAsync(String url) in C:\Coding\Practice\APIAggregationAssignment\Services\ExternalAPIService.cs:line 39
+2025-03-19 17:13:31.338 +02:00 [INF] Start processing HTTP request GET https://jsonplaceholder.typicode.com/postss
+2025-03-19 17:13:31.339 +02:00 [INF] Sending HTTP request GET https://jsonplaceholder.typicode.com/postss
+2025-03-19 17:13:31.423 +02:00 [INF] Received HTTP response headers after 83.028ms - 404
+2025-03-19 17:13:31.424 +02:00 [INF] End processing HTTP request after 86.4953ms - 404
+2025-03-19 17:13:31.437 +02:00 [ERR] Error with https://jsonplaceholder.typicode.com/postss.
+Error: Response status code does not indicate success: 404 (Not Found).
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at APIAggregationAssignment.Services.ExternalAPIService.FetchDataAsync(String url) in C:\Coding\Practice\APIAggregationAssignment\Services\ExternalAPIService.cs:line 39
+2025-03-19 17:13:31.438 +02:00 [ERR] Error fetching from https://jsonplaceholder.typicode.com/postss, tried 3 times.
+2025-03-19 17:13:31.438 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-19 17:13:31.440 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2025-03-19 17:13:31.441 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-03-19 17:13:31.441 +02:00 [INF] Executing OkObjectResult, writing value of type 'APIAggregationAssignment.Models.APIAggregateDTO'.
+2025-03-19 17:13:31.442 +02:00 [INF] Executed action APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment) in 582.5127ms
+2025-03-19 17:13:31.442 +02:00 [INF] Executed endpoint 'APIAggregationAssignment.Controllers.APIAggregateController.GetAggregatedData (APIAggregationAssignment)'
+2025-03-19 17:13:31.443 +02:00 [DBG] Connection id "0HNB6V1VQB14N" completed keep alive response.
+2025-03-19 17:13:31.443 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7103/api/aggregate - 200 null application/json; charset=utf-8 595.219ms
