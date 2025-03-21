@@ -72,3 +72,5 @@ Required dependencies
   - FluentAssertions (recommended for better assertions)
 
   - Microsoft.NET.Test.Sdk (ensures test discovery and execution work correctly)
+
+  - FakeItEasy (for creating fake / mock objects to help with testing)
