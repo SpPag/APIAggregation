@@ -1,5 +1,6 @@
 ﻿using System.Text.Json;
 using APIAggregationAssignment.Models;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Identity.Client;
 using Serilog;
 
@@ -14,12 +15,17 @@ namespace APIAggregationAssignment.Services
         //injecting ILogger to log errors. I'm using Serilog and Serilog.Sinks.File
         private readonly ILogger<ExternalAPIService> _logger;
 
-        public ExternalAPIService(HttpClient httpClient, ILogger<ExternalAPIService> logger)
+        //injecting IMemoryCache for caching
+        private readonly IMemoryCache _cache;
+
+        public ExternalAPIService(HttpClient httpClient, ILogger<ExternalAPIService> logger, IMemoryCache cache)
         {
             //providing access to the private _httpClient field via a public property
             _httpClient = httpClient;
             //providing access to the private _logger field via a public property
             _logger = logger;
+            //providing access to the private _cache field via a public property
+            _cache = cache;
 
             //timeout the call if there's been no response after 5 seconds
             _httpClient.Timeout = TimeSpan.FromSeconds(5);
@@ -97,14 +103,31 @@ namespace APIAggregationAssignment.Services
         //method that accesses each API that corresponds to a given URL (from the provided list argument), gets the response and returns a dictionary with a key-value-pair of URL: response
         public async Task<Dictionary<string, object>> GetDataFromAPIsAsync(List<string> APIURLs)
         {
-            //starts the API calls asyncronously since the FetchDataAsync method is Async
-            var tasks = APIURLs.ToDictionary(url => url, url => FetchDataAsync(url));
+            // Ensure URLs are sorted before generating the cache key. Otherwise, the same URLs in a different order would constitute a different cacheKey
+            var sortedURLs = APIURLs.OrderBy(url => url).ToList();
+            string cacheKey = $"APIResponse_{string.Join("_", sortedURLs)}";
+
+            // Check if the data exists in cache
+            if (_cache.TryGetValue(cacheKey, out Dictionary<string, object> cachedData))
+            {
+                return cachedData; // Return cached data if available
+            }
+            //if cacheKey doesn't find anything, the requests go through
+            //starts the API calls asyncronously since the FetchDataAsync method is Async. I'm using sortedURLs instead of APIURLs because the cacheKey will be the URL list, sorted. So the responses should also be sorted based on their URLs so that matching is correct
+            var tasks = sortedURLs.ToDictionary(url => url, url => FetchDataAsync(url));
 
             //makes the method wait for all the API responses to come through before continuing with the rest of the code
             var results = await Task.WhenAll(tasks.Values);
 
             //this changes the tasks from key: String, value: Task, to key: String, value: Task.Result, so that what's returned as the value of each key-value-pair is the result of the API call
             var responseDictionary = tasks.Keys.Zip(results, (key, result) => new { key, result }).ToDictionary(kvp => kvp.key, kvp => kvp.result);
+
+            //caches the aggregated response with a sliding expiration of 45 seconds and an absolute expiration of 5 minutes. Sliding is refreshed every time it's accessed, as long as it hasn't already expired. Absolute expires after set duration regardless of being accessed
+            _cache.Set(cacheKey, responseDictionary, new MemoryCacheEntryOptions
+            {
+                SlidingExpiration = TimeSpan.FromSeconds(45),
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(5)
+            });
 
             return responseDictionary;
         }

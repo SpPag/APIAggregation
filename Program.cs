@@ -21,6 +21,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 //registering HttpClient along with IExternalAPIService and its implementation
 builder.Services.AddHttpClient<IExternalAPIService, ExternalAPIService>();
+//registering memory caching
+builder.Services.AddMemoryCache();
 
 var app = builder.Build();
 
