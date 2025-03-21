@@ -27,7 +27,7 @@ Endpoint:
       ]
   }
 
-• Query Parameters: You can use the filterBy query parameter to filter results. Example: /api/aggregate?filterBy=Holt
+• Query Parameters: You can use the optional filterBy and sortBy query parameters to filter and sort results, respectively. Example: /api/aggregate?filterBy=Holt (filter only)  /api/aggregate?sortBy=FirstName (sort only) /api/aggregate?filterBy=Holt&sortBy=FirstName (both filter and sort)
 
 • Response Body: Returns a JSON object with the results from the requested APIs, formatted and processed for the registered APIs. Any other API will return the response in raw JSON depending on its configuration.
 
@@ -43,10 +43,7 @@ Should more API responses need to be deserialized and more nicely presented, fol
 
 There is some error handling capability. Each provided API URL is retried up to three times. If all attempts fail, an appropriate error will be returned.
 
-
-There is some filtering capability. The query supports a filterBy parameter to filter results.
-
-For example: `https://localhost:7103/api/aggregate?filterBy=Holt` (will return a single entry from `https://reqres.in/api/users` that has "Holt" as last name)
+The solution has two projects in it, the second one named APIAggregationAssignment.Tests includes some tests for unit testing purposes.
 
 
 Required dependencies
