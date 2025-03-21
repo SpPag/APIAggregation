@@ -27,7 +27,8 @@ Endpoint:
       ]
   }
 
-• Query Parameters: You can use the optional filterBy and sortBy query parameters to filter and sort results, respectively. Example: /api/aggregate?filterBy=Holt (filter only)  /api/aggregate?sortBy=FirstName (sort only) /api/aggregate?filterBy=Holt&sortBy=FirstName (both filter and sort)
+• Query Parameters: You can use the optional filterBy and sortBy query parameters to filter and sort results, respectively.
+Example: /api/aggregate?filterBy=Holt (filter only)  /api/aggregate?sortBy=FirstName (sort only) /api/aggregate?filterBy=Holt&sortBy=FirstName (both filter and sort)
 
 • Response Body: Returns a JSON object with the results from the requested APIs, formatted and processed for the registered APIs. Any other API will return the response in raw JSON depending on its configuration.
 
