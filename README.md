@@ -62,3 +62,13 @@ Required dependencies
   - Serilog.Sinks.Console
   
   - Serilog.Sinks.File
+
+• For testing (installed on the testing project)
+
+  - xunit
+
+  - xunit.runner.visualstudio (needed for running tests in Visual Studio)
+
+  - FluentAssertions (recommended for better assertions)
+
+  - Microsoft.NET.Test.Sdk (ensures test discovery and execution work correctly)
