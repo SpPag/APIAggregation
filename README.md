@@ -1,4 +1,7 @@
 # APIAggregation
+
+I'm aware there are security vulnerabilities in the way I'm handling URL checks. Instead of using .contains(), I should have one service for each URL I want my API to handle and generally structure the project differently. I'm just leaving this here.
+
 This is a simple API Aggregation service. It's currently set up to deserialize and format the responses from three APIs:
 
   • `https://jsonplaceholder.typicode.com/posts`
